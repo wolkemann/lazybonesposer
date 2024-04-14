@@ -1,0 +1,11 @@
+Model Information:
+* title:	3D Character RIGGED - w/Kinematics
+* source:	https://sketchfab.com/3d-models/3d-character-rigged-wkinematics-322a59d5118e4f7ea867544adf6bed95
+* author:	Renanzinho (https://sketchfab.com/Renanzinho3003)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "3D Character RIGGED - w/Kinematics" (https://sketchfab.com/3d-models/3d-character-rigged-wkinematics-322a59d5118e4f7ea867544adf6bed95) by Renanzinho (https://sketchfab.com/Renanzinho3003) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

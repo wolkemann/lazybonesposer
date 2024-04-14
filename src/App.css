@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.screen {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.canvas {
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu {
+  width: 300px;
+  height: 100vh;
+  padding: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.boneProp {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.bonePropName {
+  cursor: pointer;
+}
+
+.propsInput {
+  width: 100%;
+  margin: 2px;
+  padding: 2px 5px;
+}
+
+.propsSlider {
+  width: 100%;
+}
