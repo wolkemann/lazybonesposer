@@ -18,6 +18,15 @@ lazyskeletonutils is a small react app developed for internal use as a helper to
 
 - everything should work!
 
-## Options and settings
+## Options, settings and feature
+
+- you can click on a bone's name to create a simple javascript syntax with said values. As an example, if you click on `_rootJoint` this is what will be copied on the clipboard:
+
+```
+nodes["_rootJoint"].rotation.x = -1.5707964897155762
+nodes["_rootJoint"].rotation.y = -0.535
+nodes["_rootJoint"].rotation.z = 1.697
+
+```
 
 - you can modify the sliders settings inside `settings.js`
