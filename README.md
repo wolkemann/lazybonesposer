@@ -14,10 +14,10 @@ lazyskeletonutils is a small react app developed for internal use as a helper to
 
 - modify `MODEL_PATH` according to where you put your .glb/.gltf file
 
-- go inside App.jsx and insert the mesh component after the comment "copy your mesh here". I recommend to use [gltfjsx][https://github.com/pmndrs/gltfjsx] for creating the jsx component
+- go inside App.jsx and insert the mesh component after the comment "copy your mesh here". I recommend to use [gltfjsx](https://github.com/pmndrs/gltfjsx) for creating the jsx component
 
 - everything should work!
 
-### Options and settings
+## Options and settings
 
 - you can modify the sliders settings inside `settings.js`

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Women/Female Body Base Rigged
+* source:	https://sketchfab.com/3d-models/womenfemale-body-base-rigged-45caea510e4b4b65bf4ef9bbb4d2045c
+* author:	camilooh (https://sketchfab.com/camilooh)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Women/Female Body Base Rigged" (https://sketchfab.com/3d-models/womenfemale-body-base-rigged-45caea510e4b4b65bf4ef9bbb4d2045c) by camilooh (https://sketchfab.com/camilooh) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
