@@ -11,9 +11,10 @@ function App() {
 
   const { nodes, materials } = useGLTF(MODEL_PATH);
 
-  // Save your bones poistion here for preloading
-  // TODO: add some localStorage/persitent data support
   useLayoutEffect(() => {
+    // Save your bones position here for preloading
+    // TODO: add some localStorage/persistent data support
+
     setBonesData(nodes);
     setSkeletonLoaded(true);
   });
