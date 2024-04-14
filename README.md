@@ -26,7 +26,6 @@ lazyskeletonutils is a small react app developed for internal use as a helper to
 nodes["_rootJoint"].rotation.x = -1.5707964897155762
 nodes["_rootJoint"].rotation.y = -0.535
 nodes["_rootJoint"].rotation.z = 1.697
-
 ```
 
 - you can modify the sliders settings inside `settings.js`
