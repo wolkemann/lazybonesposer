@@ -35,6 +35,20 @@ function App() {
     setBonesData(newRotation);
   };
 
+  const handleCopyAllValues = () => {
+    let clipboard = "";
+    Object.keys(bonesData).forEach((nodeName) => {
+      if (bonesData[nodeName].isBone) {
+        clipboard += `nodes["${nodeName}"].rotation.x = ${bonesData[nodeName].rotation.x}
+      nodes["${nodeName}"].rotation.y = ${bonesData[nodeName].rotation.y}
+      nodes["${nodeName}"].rotation.z = ${bonesData[nodeName].rotation.z}
+      `;
+      }
+    });
+
+    navigator.clipboard.writeText(clipboard);
+  };
+
   return (
     skeletonLoaded && (
       <div className="screen">
@@ -61,6 +75,7 @@ function App() {
         </div>
 
         <div className="menu">
+          <p onClick={handleCopyAllValues}>Copy all</p>
           {Object.keys(bonesData).map((nodeName) => {
             if (!nodes[nodeName].isBone) {
               return <div key={nodeName}></div>;
