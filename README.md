@@ -1,6 +1,6 @@
-# Lazy Skeleton Utils for R3F
+# Lazy Bones Poser for R3F
 
-lazyskeletonutils is a small react app developed for internal use as a helper to manipulate the bones of skeletons used in Three.js, with a specific focus on R3F.
+lazybonesposer is a small react app developed for internal use as a helper to manipulate the bones of skeletons used in Three.js, with a specific focus on R3F.
 
 ## Installation and launch
 
