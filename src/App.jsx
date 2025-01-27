@@ -1,6 +1,6 @@
 import { useLayoutEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, useGLTF } from "@react-three/drei";
+import { OrbitControls, Outlines, useGLTF } from "@react-three/drei";
 
 import "./App.css";
 import { MODEL_PATH, SLIDERS_PROPS } from "./constants/settings";
@@ -53,20 +53,21 @@ function App() {
     skeletonLoaded && (
       <div className="screen">
         <div className="canvas">
-          <Canvas>
+          <Canvas camera={{ position: [0, 0, 6], fov: 50, zoom: 10 }}>
             {
               // Copy your mesh here
             }
-            <group dispose={null} position={[0, -7, 0]} scale={0.005}>
+            <group dispose={null}>
               <primitive object={nodes._rootJoint} />
               <skinnedMesh
-                geometry={nodes.Object_7.geometry}
-                material={materials["default"]}
-                skeleton={nodes.Object_7.skeleton}
-                position={[0, 1068.402, 0]}
-                rotation={[-Math.PI / 2, 0, 0]}
-                scale={373.033}
-              />
+                geometry={nodes.Object_85.geometry}
+                material={nodes.Object_85.material}
+                skeleton={nodes.Object_85.skeleton}
+                position={[0, -0.008, 0]}
+                scale={0.161}
+              >
+                <Outlines thickness={0.008} color="#b200b2" />
+              </skinnedMesh>
             </group>
             <OrbitControls />
             <ambientLight />
